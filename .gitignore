@@ -1,0 +1,33 @@
+# Android / Gradle
+*.iml
+.gradle/
+local.properties
+/.idea/
+.DS_Store
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+*.jks
+*.keystore
+
+# Android Studio
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Leftover Firebase config file, if one is still in the project — the app
+# no longer uses Firebase (Batch 14, 20 Nov 2026), so this must never be
+# committed either way.
+google-services.json
+
+# Volt on-device model files — ~1.14 GB, downloaded separately (see README).
+# Never commit these; they make every clone crawl.
+*.pte
+tokenizer.bin
+**/volt/*.pte
+**/volt/tokenizer.bin
+
+# Local machine files
+*.log

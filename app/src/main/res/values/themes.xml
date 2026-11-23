@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Phase 1: all visual styling is done in Compose code (ui/theme/Theme.kt).
+         This just gives the Activity a clean, bar-less window to draw in. -->
+    <style name="Theme.ElectroSathi" parent="android:Theme.Material.NoActionBar" />
+</resources>
